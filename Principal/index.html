@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
+</head>
+<body>
+    <header>
+        <h1>KenzieHabit</h1>
+        <span><img src="" alt="" class="header__user-img  user_img"></span>  
+    </header>
+    <main>
+        <div class="main_header">
+            <span> <img src="" alt="" class="user_img main__header-img"></span>
+            <p>Nome</p>
+        </div>
+        <div class="main__tasks-title">
+            <p>Tarefas</p>
+            <div class="tasks_filter-buttons">
+                <a href="" class="task ">Todos</a>
+                <a href="" class="task">Concluídos</a>
+                <a href="" class="task active">Criar</a>
+            </div>
+        </div>
+        <div class="table__tasks">
+            <div class="table_task_title">
+                <div class="task__title-left">
+                    <p class="task__status-left">Status</p>
+                    <p class="task__titleName-left">Título</p>
+                    <p class="task__description-left">Descrição</p>
+                    <p class="task__category">Categoria</p>
+                    <p class="task__edit">Editar</p>
+                </div>
+            </div>
+            <div class="task__itens">
+                <div class="task__item">
+                    <input type="checkbox" name="" id="check">
+                    <p class="task__title">Fazer exercícios segunda pela manhã</p>
+                    <p class="task_description">Ir correr na  praça próximo de csa</p>
+                    <span class="task_category">Saúde</span>
+                    <span class="task_edit--elipsis"><i class="uil uil-ellipsis-h"></i></span>
+                </div>
+                <div class="task__item">
+                    <input type="checkbox" name="" id="check">
+                    <p class="task__title">Fazer exercícios segunda pela manhã</p>
+                    <p class="task_description">Ir correr na  praça próximo de csa</p>
+                    <span class="task_category">Saúde</span>
+                    <span class="task_edit--elipsis"><i class="uil uil-ellipsis-h"></i></span>
+                </div>
+            </div>
+        </div>
+        <button class="more__itens">Carregar mais</button>
+    </main>
+
+    <!-- TOAST MESSAGE -->
+    <div class="toast">
+        <div class="toast__message" id="sucess">
+            <span><i class="uil uil-check-circle"></i></span>
+            <div class="message__identifier">
+                <p class="message__title">Sucess!</p>
+                <p class="message" id="message__sucess">Seu hábito foi alterado</p>
+            </div>
+        </div>
+        <div class="toast__message" id="error">
+            <span><i class="uil uil-exclamation-circle"></i></span>
+            <div class="message__identifier">
+                <p class="message__title">Ops!</p>
+                <p class="message" id="message__wrong">Wrong</p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
